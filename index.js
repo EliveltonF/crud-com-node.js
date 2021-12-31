@@ -68,17 +68,7 @@ app.post('/delete', async (req, res) => {
           res.send(err)
      }
 })
-app.get('/teste/:id', async (req, res) => {
-     try {
-          console.log(req.params)
-          const result = await authSchemaDelete.validateAsync(req.params)
-          res.send(result)
 
-     } catch (err) {
-          console.error(err)
-          res.json(err)
-     }
-})
 
 
 app.listen(4000, () => { console.log('servidor rodando na porta 4000...') })
