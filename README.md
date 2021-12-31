@@ -18,7 +18,7 @@ precisa configurar a conexao com o banco de dados, no arquivo  knexfile.js
 cd pasta_projeto
 ```
 ```
-git clone https://gitlab.com/diogoelivelton18/desafio-backend
+git clone https://github.com/EliveltonF/crud-com-node.js
 ```
 ```
 npm install
